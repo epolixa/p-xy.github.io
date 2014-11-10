@@ -1,5 +1,7 @@
 /* Home page treatments */
 
+#home {height: 100%;}
+
 #home body
 {
 	background: url(http://i.imgur.com/VqJ3dnm.jpg);
@@ -16,7 +18,7 @@
 	margin: 0 auto;
 }
 
-#home .content
+#home .primary_content
 {
 	width: 130px;
 	height: 130px;
@@ -27,7 +29,7 @@
 	line-height: 125px;
 }
 
-#home .content h2
+#home .primary_content h2
 {
 	color: #F1458D;
 	font-size: 32px;
@@ -38,4 +40,13 @@
 	margin: 0 auto;
 }
 
-#home .content .orbit_list {display: none;}
+#home .primary_content .orbit_list {list-style: none;}
+
+#home .resume_area {
+	height: 100%;
+	width: 100px;
+	display: block;
+	position: absolute;
+	right: 0;
+	background: rgba(255, 255, 255, 0.9);
+}
