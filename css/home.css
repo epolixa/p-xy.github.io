@@ -1,38 +1,32 @@
-/* Home page treatments */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-#home {height: 100%;}
-
-#home body {}
-
-#home .masthead .header h1
-{
-	color: #0A741C;
-	font-size: 48px;
-	font-family: 'Cabin Condensed';
-
-	text-align: center;
-
-	margin: 0 auto;
+body {
+	font-family: 'Open Sans';
+	background: #FFE4F2;
+	color: #5B6C79;
 }
 
-#home .primary_content
-{
-	width: 130px;
-	height: 130px;
-	margin: 20% auto 0 auto;
-	background: rgba(255, 255, 255, 0.9);
-	border-radius: 100px;
-	padding: 4px;
-	line-height: 125px;
+.container {
+	width: 600px;
+	height: 400px;
+	margin: 100px auto;
 }
 
-#home .primary_content h2
-{
-	color: #F1458D;
-	font-size: 32px;
-	font-family: 'Cabin Condensed';
-
-	text-align: center;
-
+.avatar-area {
+	height: 100px;
+}
+.avatar {
+	width: 100px;
+	height: 100px;
 	margin: 0 auto;
+	border-radius: 60px;
+
+	background: url(../images/home/avatar.jpeg);
+}
+
+p {
+	text-align: justify;
+	border-left: 1px solid #5B6C79;
+	border-right: 1px solid #5B6C79;
+	padding: 0 10px 0 10px;
 }
