@@ -2,10 +2,7 @@
 
 #home {height: 100%;}
 
-#home body
-{
-	background: url(http://i.imgur.com/VqJ3dnm.jpg);
-}
+#home body {}
 
 #home .masthead .header h1
 {
@@ -38,15 +35,4 @@
 	text-align: center;
 
 	margin: 0 auto;
-}
-
-#home .primary_content .orbit_list {list-style: none;}
-
-#home .resume_area {
-	height: 100%;
-	width: 100px;
-	display: block;
-	position: absolute;
-	right: 0;
-	background: rgba(255, 255, 255, 0.9);
 }
